@@ -24,12 +24,7 @@ where C.id_lince = L.id_Lince and L.genero ="M"
 and C.data between "2016.02.01" and "2016.02.29")
 
 
---nota RESTRICT (restringe algo), 
---CASCADE(on delite castade apaga tudo soble o que se apagou mesmo nas outras tabelas),
---SET NULL(delite set null faz com que esses valores fiquem nas tabelas mas sem referencia ** pontas soltas**),
---NO ACTION(.
 
--- aula 20/05/2016
 
 create function vivo(id int) returns bool
 begin 
