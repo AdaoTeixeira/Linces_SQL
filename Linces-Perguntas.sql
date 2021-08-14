@@ -1,5 +1,5 @@
 --Linces.
--- 1 Quais os linces femias (id_lince, nome) que no ultimo control
+-- 1 Quais os linces femeas (id_lince, nome) que no ultimo control
 -- realizado tinham peso superior à media dos controles anteriores. 
 CREATE VIEW peso_medio_lince (id_lince, peso_medio) as
 select id_lince,AVG (peso) from controlos group by id_lince;
